@@ -1,0 +1,922 @@
+.App {
+  position: relative;
+  width: 1804px;
+  height: 1084px;
+  background-color: #F2F2F2;
+}
+
+.Rectangle {
+  position: absolute;
+  width: 315px;
+  height: 1084px;
+  left: 0px;
+  top: 0px;
+  background-color: #FF6C40;
+}
+
+.LoremRect {
+  position: absolute;
+  width: 87px;
+  height: 36px;
+  left: 96px;
+  top: 121px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+.LpsummRect {
+  position: absolute;
+  width: 85px;
+  height: 36px;
+  left: 96px;
+  top: 210px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+.DashboardRect {
+  position: absolute;
+  width: 315px;
+  height: 82px;
+  left: 0px;
+  top: 7px;
+  background: #FFC480;
+}
+
+.DashboardText {
+  position: absolute;
+  width: 151px;
+  height: 36px;
+  left: 96px;
+  top: 30px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+.view-dashboard {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 30px;
+  top: 30px;
+}
+.path1{
+  position: absolute;
+  width: 16px;
+  height: 20px;
+  left: 30px;
+  top: 30px;
+  background-color: white;
+}
+.path3{
+  position: absolute;
+  width: 16px;
+  height: 12px;
+  left: 30px;
+  top: 54px;
+  background-color: white;
+}
+.path2 {
+  position: absolute;
+  width: 16px;
+  height: 20px;
+  left: 50px;
+  top: 46px;
+  background-color: white;
+}
+.path4 {
+  position: absolute;
+  width: 16px;
+  height: 12px;
+  left: 50px;
+  top: 30px;
+  background-color: white;
+}
+
+.School {
+  position: absolute;
+  width: 44px;
+  height: 36px;
+  left: 22px;
+  top: 122px;
+}
+
+.Settings {
+  position: absolute;
+  width: 35.02px;
+  height: 36px;
+  left: 30.49px;
+  top: 210px;
+}
+
+/* -----------Search bar------------ */
+
+.SearchReactangle {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  height: 36px;
+  width: 836px;
+  left: 393px;
+  top: 42px;
+  background-color: #E2E2E2ed;
+  border: 2px solid #E2E2E2;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+}
+
+.SearchText {
+  position: absolute;
+  height: 20px;
+  left: 4.31%;
+  right: 89.71%;
+  top: calc(50% - 20px/2);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  color: #AAAAAA;
+}
+/* -----------sales report------------ */
+
+.SalesReportRectangel {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 1029px;
+  height: 495px;
+  left: 377px;
+  top: 105px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+}
+
+.HeadingContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.Heading {
+  padding-top: 21px;
+  padding-left: 21px;
+  padding-bottom: 21px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  color: #593636;
+}
+
+.Heading2 {
+  padding-left: 10px;
+  padding-top: 21px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  color: #929292;
+}
+
+.SubSalesConatiner{
+  display: flex;
+  flex-direction: column;
+}
+.GraphContainer {
+  height: 367px;
+  width: 755px;
+  margin-left: 59px;
+}
+
+.RightSalesContainer {
+  position: absolute;
+  height: 495px;
+  width: 183px;
+  right: 0;
+  background: #FF6C40;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.SalesDate{
+  padding: 21px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFFFF;
+  
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.RevQuoContainer{
+  padding-left: 21px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Revenue{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 105px;
+  width: 141px;
+  border-radius: 15px;
+  background: #FFE700;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+}
+
+.RevenueRate{
+  padding-left: 21px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #593636;
+}
+
+.RevenueText{
+  padding-left: 21px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;  
+  color: rgba(89, 54, 54, 0.8);
+}
+.Quotations{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 21px;
+  height: 105px;
+  width: 141px;
+  background: #1FFD77;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+}
+
+.QuotationsCount{
+  padding-left: 21px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #593636;
+}
+
+.QuotationsText{
+  padding-left: 21px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;  
+  color: rgba(89, 54, 54, 0.8);
+}
+/* ----------- Notepad ------------ */
+
+.Notepad {
+  position: absolute;
+  width: 425px;
+  height: 385px;
+  left: 377px;
+  top: 634px;
+  background: #FFFFFF;
+  border-radius: 15px;
+}
+
+.NotepadText{
+  position: absolute;
+  width: 143px;
+  height: 49px;
+  left: 406px;
+  top: 663px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 36px;
+  color: #593636;
+}
+
+.NotepadSubItem{
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.NotepadItem{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  left: -10px;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.NoteItemTitle{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.NoteItemText{
+  padding-left: 5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color:rgba(0, 0, 0, 0.5);
+}
+
+.Ellipse {
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  left: 706px;
+  top: 930px;
+  border-radius: 50%;
+  background: #FF6C40;
+}
+
+.EllipseText {
+  position: absolute;
+  width: 28px;
+  height: 56px;
+  left: 721px;
+  top: 932px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
+  color: #FFF5F5;
+}
+/* ----------- Sub Graph ------------ */
+
+.SubGraphFrame {
+  position: absolute;
+  width: 323px;
+  height: 252px;
+  left: 814px;
+  top: 631px;
+}
+
+.textGraph{
+  display: flex;
+  padding: 6px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SubGraphMonth{
+  font-family: Comfortaa;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 8px;
+  color: #1E1E1E;
+}
+
+.SubGraphGroup {
+  position: absolute;
+  width: 305px;
+  height: 234px;
+  left: 2.79%;
+  right: 2.79%;
+  top: 2.38%;
+  bottom: 4.76%;
+  background-color: #ffffff;
+  border-radius: 15px;
+  filter: drop-shadow(0px 3px 6px #6C78DE);
+}
+
+/* ----------- Indox ------------ */
+
+.IndoxFrame {
+  position: absolute;
+  width: 300px;
+  height: 103px;
+  left: 823px;
+  top: 916px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+}
+
+.Text {
+  position: absolute;
+  height: 24px;
+  left: 10.3%;
+  right: 63.11%;
+  top: calc(50% - 24px/2 + 3.5px);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #929292;
+}
+
+.Value {
+  position: absolute;
+  height: 48px;
+  left: 76.06%;
+  right: 3.71%;
+  top: calc(50% - 48px/2 + 0.5px);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 48px;
+  color: #593636;
+}
+
+/* ----------- This Month ------------ */
+
+.MonthFrame {
+  position: absolute;
+  left: 63.58%;
+  right: 21.51%;
+  top: 58.87%;
+  bottom: 30.29%;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  filter: drop-shadow(0px 3px 6px #6C78DE);
+}
+
+.MonthText{
+  position: absolute;
+  left: 68.68%;
+  right: 25.83%;
+  top: 59.87%;
+  bottom: 38.47%;
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 17px;
+  color: #000000; 
+}
+
+.MonthLine {
+  position: absolute;
+  left: 63.91%;
+  right: 21.78%;
+  top: 62.36%;
+  bottom: 37.64%;
+  border: 0.5px solid #707070;
+}
+
+.MonthValue{
+  position: absolute;
+  left: 65.41%;
+  right: 28.99%;
+  top: 64.67%;
+  bottom: 31.46%;
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 28px;
+  color: #0F26F2;
+}
+
+.MonthGraphContainer {
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 50%;
+  width: 105px;
+  height: 42px;
+}
+
+/* ----------- Last Month ------------ */
+
+.LastMonthFrame {
+  position: absolute;
+  left: 63.91%;
+  right: 21.92%;
+  top: 72.61%;
+  bottom: 17.09%;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  filter: drop-shadow(0px 3px 6px #6C78DE);
+}
+
+.LastMonthText{
+  position: absolute;
+  left: 68.74%;
+  right: 25.94%;
+  top: 73.52%;
+  bottom: 24.82%;
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 17px;
+  color: #000000; 
+}
+
+.LastMonthLine {
+  position: absolute;
+  left: 64.19%;
+  right: 22.17%;
+  top: 75.92%;
+  bottom: 24.08%;
+  border: 0.5px solid #707070;
+}
+
+.LastMonthValue{
+  position: absolute;
+  left: 65.02%;
+  right: 28.49%;
+  top: 78.14%;
+  bottom: 18.17%;
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 28px;
+  color: #0F26F2;
+}
+
+/* ----------- Notification Events ------------ */
+
+.Notifications {
+  position: absolute;
+  width: 168px;
+  height: 53px;
+  left: 1438px;
+  top: 105px;
+  background: #FFFFFF;
+  border-radius: 15px 15px 0px 0px; 
+}
+
+.NotificationText {
+  position: absolute;
+  width: 143px;
+  height: 30px;
+  left: 1453px;
+  top: 120px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #494949;
+}
+
+.Events {
+  position: absolute;
+  width: 179px;
+  height: 53px;
+  left: 1590px;
+  top: 105px;
+  background: #FAFAFA;
+  border-radius: 15px 15px 0px 0px; 
+}
+
+.EventText{
+  position: absolute;
+  width: 76px;
+  height: 31px;
+  left: 1639px;
+  top: 116px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #B0B0B0;
+}
+
+.NotificationBox {
+  position: absolute;
+  width: 331px;
+  height: 624px;
+  left: 1438px;
+  top: 158px;
+  background: #FFFFFF;
+  border-radius: 0px 0px 15px 15px;
+  overflow: hidden;
+}
+
+.NotificationSubBox {
+  position: relative;
+  width: 303px;
+  height: 599px;
+  left: 1453px;
+  top: 172px;
+  background: #ffffff;
+  box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.NotificationArray {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 285px;
+  height: 93px;
+  left: -38px;
+  top: -15px;
+}
+
+.Noti_TextSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 7px;
+  padding-bottom: 12px;
+}
+
+.Noti_UserBox{
+  margin-left: 10px;
+  margin-top: 19px;
+  margin-right: 16px;
+  width: 46px;
+  height: 54px;
+  background: #ffd9d9;
+}
+.Noti_UserName{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #484848;
+}
+
+.Noti_UserText{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  
+  color: #756F6F;
+}
+
+.Noti_UserStatus{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 8px;
+  
+  color: #756F6F;
+}
+
+.ViewAll {
+  position: absolute;
+  width: 71px;
+  height: 21px;
+  left: 1569px;
+  top: 750px;
+  background: #F8F8F8;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.ViewText {
+  position: absolute;
+  height: 9px;
+  left: 88.19%;
+  right: 10.2%;
+  top: calc(50% - 9px/2 + 219.5px);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 7px;
+  line-height: 8px;
+  color: #756F6F;
+}
+
+/*---------NewPost---------*/
+
+.NewPost {
+  position: relative;
+  width: 1083px;
+  height: 204px;
+  left: 393px;
+  top: 42px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.SearchBox {
+  position: absolute;
+  padding: 25px;
+  width: 972.97px;
+  height: 50px;
+  left: 418.52px;
+  top: 60px;
+  background: #FAFAFA;
+  border-radius: 15px;
+  border-color: #FAFAFA;
+  color: #BABABA;
+  font-size: 30;
+}
+
+.CancelButton {
+  position: absolute;
+  display: flex;
+  width: 141.75px;
+  height: 50px;
+  left: 418.52px;
+  top: 176px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 11px;
+}
+
+.CancelText {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  color: #EF3E36;
+}
+
+.ShareContainer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 180.03px;
+  height: 50px;
+  left: 1269.04px;
+  top: 176px;
+  background: #FF6C40;
+  border-radius: 11px;
+  border-color: #FFFFFF;
+}
+
+.ShareButtonDropdown {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 39.69px;
+  height: 48px;
+  left: 1409.38px;
+  top: 178px;
+  background: #FFC480;
+  border-radius: 11px;
+}
+
+.ShareText {
+  padding-left: 25%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #F2D8D5;
+}
+
+.ShareEcllipse {
+  position: absolute;
+  display: flex;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  left: 1191px;
+  top: 176px;
+  justify-content: center;
+  align-items: center;
+  background: #FFC480;
+}
+
+/*--------- Recent Post ---------*/
+
+.Post {
+  float: 1;
+  display: flex;
+  width: 1150px;
+  height: 800px;
+  margin-left: 350px;
+  margin-top: 4%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.RecentPostContainer {
+  display: flex;
+  width: 1083px;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #FFFFFF;
+  border-radius: 15px;
+  margin-bottom: 3%;
+
+}
+
+.RecentPostSubContainer{
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+}
+
+.TextContainer{
+  padding-left: 15px;
+}
+
+.PostNameDate{
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: 15px;
+}
+
+.UserImageContainer {
+  width: 59.54px;
+  height: 59.54px;
+  border-radius: 15px;
+  background-color: #BABABA;
+}
+
+.Teacher {
+  height: 29px;
+  width: 240px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.CommentText{
+  width: 930px;  
+  font-style: normal;
+  font-weight: 200;
+  font-size: 17px;
+  line-height: 20px;
+  color: #000000;
+  
+}
+
+.Date {
+  height: 26px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #868686;
+}
+
+.CommentContainer {
+  width: 1083px;
+  height: 89px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FAFAFA;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.CommentUserProfile {
+  width: 42.53px;
+  height: 42.53px;
+  background-color: #BABABA;
+  border-radius: 10px;
+}
+
+.Comment {
+  height: 28px;
+  width: 80%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #d3d3d3;
+}
+
+.SendIcon {
+  position: relative;
+  width: 29px;
+  height: 30px;
+}
+
+.SendIconV2 {
+  position: absolute;
+  left: 40.3%;
+  right: 0%;
+  top: 4.16%;
+  bottom: 0%;
+}
+
+.SendIconV1 {
+  position: absolute;
+  left: 0%;
+  right: 4.16%;
+  top: 0%;
+  bottom: 40.3%;
+}

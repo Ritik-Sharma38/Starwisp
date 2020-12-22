@@ -1,0 +1,2 @@
+export const ADD_ITEM_NOTEPAD = "ADD_ITEM_NOTEPAD";
+export const NEW_POST_NOTEPAD = "NEW_POST_NOTEPAD";

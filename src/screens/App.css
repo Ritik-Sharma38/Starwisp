@@ -1,0 +1,13 @@
+.App {
+  position: relative;
+  width: 1804px;
+  height: 1084px;
+  background-color: #F2F2F2;
+}
+.App2 {
+  position: relative;
+  display: flex;
+  width: 1956px;
+  height: 1084px;
+  background-color: #F2F2F2;
+}
